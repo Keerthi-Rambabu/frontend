@@ -1,0 +1,44 @@
+/* Sidebar container #FBFBF9 */
+.sidebar {
+    background-color:#c5c6d0;
+    padding: 20px;
+    width: 100%;
+    border-right: 1px solid #DCDCDC;
+    min-height: 100vh;
+   
+}
+
+.unordered {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 10px;
+    text-align: start;
+}
+
+.unordered li {
+    margin: 10px 0;
+}
+
+.unordered li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.unordered li a:hover {
+    color: tomato;
+}
+.unordered hr{
+    border:none;
+    width:80%;
+    height:3px;
+    border-radius: 10px;
+    background:#FF4141 ;
+}
+
+/* Active list item styling */
+.unordered li.active a {
+    color: tomato;
+    
+}

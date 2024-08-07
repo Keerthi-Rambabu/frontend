@@ -1,0 +1,48 @@
+.details {
+    background-color: #FBFBF9;
+    min-height: 100vh;
+    font-family: 'Poppins',sans-serif;
+    margin-top: 2px;
+
+}
+
+.details h3 {
+    margin-top: 0;
+    padding-top: 10px;
+    align-items: center;
+}
+
+.details-contain {
+    display: flex;
+    min-height: 95vh;
+}
+
+.details-left {
+    flex-basis: 20%;
+    background-color: #808080;
+    overflow-y: scroll; /* Enable vertical scrolling */
+    overflow-x: hidden; /* Hide horizontal scrolling if not needed */
+}
+
+.details-right { 
+    flex-basis: 80%;
+    background-color:whitesmoke;
+    padding:10px;
+}
+
+.details-left::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+}
+
+.details-left::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    
+    background:white; /* Background color of the scrollbar track */
+}
+
+.details-left::-webkit-scrollbar-thumb {
+    background-color: red; 
+    border-radius: 10px;
+} 
+
+
